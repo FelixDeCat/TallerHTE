@@ -5,6 +5,7 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
     Rigidbody rigidbody;
+    CharView refCharView;
 
     void Start()
     {
@@ -15,7 +16,7 @@ public class Character : MonoBehaviour
     {
         
         Vector3 move = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-
+        refCharView.IsRunning(move.magnitude > 0.1f);
         rigidbody.velocity = move * Time.deltaTime * 200;
     }
 

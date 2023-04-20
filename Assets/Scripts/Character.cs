@@ -5,6 +5,7 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
     Rigidbody rigidbody;
+    Light light;
 
     void Start()
     {

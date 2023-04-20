@@ -6,6 +6,7 @@ public class Character : MonoBehaviour
 {
     Rigidbody rigidbody;
     CharView refCharView;
+    Light light;
 
     void Start()
     {

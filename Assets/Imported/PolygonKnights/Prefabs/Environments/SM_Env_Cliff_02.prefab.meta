@@ -1,8 +1,9 @@
 fileFormatVersion: 2
 guid: 8a521154430ac7b4f84ecd2939a3f482
-timeCreated: 1487205334
-licenseType: Store
-NativeFormatImporter:
+labels:
+- EquipoNaranja
+PrefabImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

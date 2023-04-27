@@ -2,33 +2,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEditor;
 
 public class SubScenes : MonoBehaviour
 {
-    public int scenesCount;
-    [SerializeField] string[] extras;
-    HashSet<AsyncOperation> operations;
+    string baseName = "";
+    public int scenes = 3;
+    public string[] extras;
 
     private void Start()
     {
-        StartCoroutine(LoadScenes());
+        baseName = SceneManager.GetActiveScene().name;
+
+        StartCoroutine(LoadScene());
     }
 
-    IEnumerator LoadScenes()
+    IEnumerator LoadScene()
     {
-        string levelName = SceneManager.GetActiveScene().name;
-
-        for (int i = 0; i < scenesCount; i++)
+        for (int i = 0; i < scenes; i++)
         {
-            yield return SceneManager.LoadSceneAsync(levelName + "_" + i, LoadSceneMode.Additive);
-            yield return new WaitForSeconds(0.2f);
+            yield return SceneManager.LoadSceneAsync(baseName + "_" + i, LoadSceneMode.Additive);
         }
 
         for (int i = 0; i < extras.Length; i++)
         {
-            yield return SceneManager.LoadSceneAsync(levelName + "_" + extras[i], LoadSceneMode.Additive);
-            yield return new WaitForSeconds(0.2f);
+            yield return SceneManager.LoadSceneAsync(baseName + "_" + extras[i], LoadSceneMode.Additive);
         }
     }
 }

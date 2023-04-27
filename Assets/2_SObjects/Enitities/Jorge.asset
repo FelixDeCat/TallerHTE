@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29b2aa0b6fcf0044d8fa328f3d89087f, type: 3}
+  m_Name: Jorge
+  m_EditorClassIdentifier: 
+  life: 1000
+  energy: 0
+  damage: 0
+  type: 2
+  refe: {fileID: 0}

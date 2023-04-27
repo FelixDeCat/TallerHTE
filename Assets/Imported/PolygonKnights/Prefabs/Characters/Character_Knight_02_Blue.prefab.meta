@@ -1,8 +1,9 @@
 fileFormatVersion: 2
 guid: 7320372aefdc71442a2cf8b68a738f3b
-timeCreated: 1487632447
-licenseType: Store
-NativeFormatImporter:
+labels:
+- EquipoAzul
+PrefabImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

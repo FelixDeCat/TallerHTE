@@ -1,9 +1,8 @@
 fileFormatVersion: 2
-guid: b81ba67e44b1b174d9ef4491f146ee35
-labels:
-- EquipoAzul
-PrefabImporter:
+guid: 1ea683decd0f27a42a03cc7cd715b77d
+NativeFormatImporter:
   externalObjects: {}
+  mainObjectFileID: 11400000
   userData: 
   assetBundleName: 
   assetBundleVariant: 

@@ -179,14 +179,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8724656687999208421}
     m_Modifications:
-    - target: {fileID: 976424230356250483, guid: 7c97e0357a2870f47821302e4a424b01, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2078636829568817567, guid: 7c97e0357a2870f47821302e4a424b01, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4033404718897741840, guid: 7c97e0357a2870f47821302e4a424b01, type: 3}
       propertyPath: m_Name
       value: Character (Model - Controller)

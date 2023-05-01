@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7004759046125381556}
   - component: {fileID: 1505720312109942469}
   m_Layer: 0
-  m_Name: l
+  m_Name: ceja izq
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -110,7 +110,7 @@ GameObject:
   - component: {fileID: 242370037282996145}
   - component: {fileID: 1540068320577630717}
   m_Layer: 0
-  m_Name: l (2)
+  m_Name: ceja der
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

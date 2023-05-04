@@ -917,8 +917,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   model: {fileID: 2166552164066114379, guid: da1a4c6fbc7b109498fcb2b032ba9d5a, type: 3}
-  width: 2
-  height: 2
+  width: 5
+  height: 5
   parcelSize: 20
   separation: 4
 --- !u!4 &1351675443

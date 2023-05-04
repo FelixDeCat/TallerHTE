@@ -29,6 +29,10 @@ public abstract class ParcelBase : MonoBehaviour
             ParcelUiDebugger.Debug(name_alumno, name_parcela);
             isActive = true;
             OnActivate();
+            foreach (var a in activables)
+            {
+                a.Activate();
+            }
         }
        
     }
@@ -40,6 +44,10 @@ public abstract class ParcelBase : MonoBehaviour
             ParcelUiDebugger.Delete();
             isActive = false;
             OnDeactivate();
+            foreach (var a in activables)
+            {
+                a.Deactivate();
+            }
         }
     }
     void Update()

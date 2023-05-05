@@ -5407,8 +5407,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a4b1af800b8ec64a9b356cd4a615d3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name_alumno: Pepito
-  name_parcela: Puente
+  name_alumno: Ezequiel
+  name_parcela: -Nombre parcela-
 --- !u!65 &3643833681807839743
 BoxCollider:
   m_ObjectHideFlags: 0

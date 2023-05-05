@@ -354,8 +354,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a4b1af800b8ec64a9b356cd4a615d3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name_alumno: Example Luces
-  name_parcela: Luces
+  name_alumno: -profe-
+  name_parcela: Parcela de Ejemplo
 --- !u!65 &6484677566270827123
 BoxCollider:
   m_ObjectHideFlags: 0

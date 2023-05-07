@@ -748,6 +748,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: FPS Core
       objectReference: {fileID: 0}
+    - target: {fileID: 7399136284196767420, guid: d690fd95ff088b841b2cff4b9e8ecbfe, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d690fd95ff088b841b2cff4b9e8ecbfe, type: 3}
 --- !u!1 &1126991501
